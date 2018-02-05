@@ -110,6 +110,12 @@ export function isBetween (num, x, y) {
   return false
 }
 
+export function getDailyReminderValue () {
+  return {
+    today: "👋 Don't forget to log your data today!"
+  }
+}
+
 export function calculateDirection (heading) {
   let direction = ''
 
